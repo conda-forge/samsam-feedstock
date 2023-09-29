@@ -1,5 +1,5 @@
 {% set name = "samsam" %}
-{% set version = "1.0.4" %}
+{% set version = "1.0.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/samsam-{{ version }}.tar.gz
-  sha256: c8fa7922d2d0c187b4fbb17aa80cd2371a2015715a406e819a85d36ce39051f2
+  sha256: 3fca17099ed99ee33d689e88041e9750b9271c82c38b74f13bf410ffbc88da9f
 
 build:
   number: 0
