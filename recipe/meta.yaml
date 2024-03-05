@@ -1,5 +1,5 @@
 {% set name = "samsam" %}
-{% set version = "1.0.5" %}
+{% set version = "1.0.6" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/samsam-{{ version }}.tar.gz
-  sha256: 3fca17099ed99ee33d689e88041e9750b9271c82c38b74f13bf410ffbc88da9f
+  sha256: c9d83f80cc7ba1c75843a7cd46a0fb14f7f80bb74634f03f065094f25f75b83d
 
 build:
   number: 0
@@ -18,10 +18,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
   run:
     - numpy >=1.16
-    - python >=3.6
+    - python >=3.8
     - scipy >=1.2
 
 test:
@@ -33,10 +33,10 @@ test:
     - pip
 
 about:
-  home: https://gitlab.unige.ch/jean-baptiste.delisle/samsam
-  summary: Scaled Adaptive Metropolis.
-  license: GPL-3.0-or-later
-  license_file: COPYING
+  home: https://gitlab.unige.ch/delisle/samsam
+  summary: Scaled Adaptive Metropolis SAMpler.
+  license: EUPL-1.2
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
