@@ -3,11 +3,11 @@ About samsam-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/samsam-feedstock/blob/main/LICENSE.txt)
 
-Home: https://gitlab.unige.ch/jean-baptiste.delisle/samsam
+Home: https://gitlab.unige.ch/delisle/samsam
 
-Package license: GPL-3.0-or-later
+Package license: EUPL-1.2
 
-Summary: Scaled Adaptive Metropolis.
+Summary: Scaled Adaptive Metropolis SAMpler.
 
 Current build status
 ====================
