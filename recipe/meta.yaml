@@ -1,5 +1,5 @@
 {% set name = "samsam" %}
-{% set version = "1.0.6" %}
+{% set version = "1.0.7" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/samsam-{{ version }}.tar.gz
-  sha256: c9d83f80cc7ba1c75843a7cd46a0fb14f7f80bb74634f03f065094f25f75b83d
+  sha256: 60871b5b8005cd5a2ff4e7d2c30d44eba5fd1ade5f12ba8afaa6f12aa22ca960
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
